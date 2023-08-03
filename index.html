@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icon.png">
+    <title>Travel Agent's</title>
+</head>
+<body>
+    <header class="container" >
+        <div class="header-left">
+            <img class="logo" src="assets/logo.png">
+        </div>
+        <div class="header-right">
+            <a href="#">Home</a>
+            <a href="#package">Our Package</a>
+            <a href="#call">Call Us</a>
+        </div>
+    </header>
+    <hr>
+    <section class="Hero">
+        <div class="container">
+            <div class="top-wrapper">
+                <h1>Your Trusted Travel Agent's</h1>
+                <h2>Your happiness is our hapiness</h2>
+            </div>
+            <div class="content">
+                <div class="content-left">
+                    <img class="top-img" src="assets/1.png">
+                    <p class="desk">"Liburan jadi menyenangkan bersama Travel Agentku"</p>
+                    <div class="person">
+                        <img class="person-img" src="assets/user.png">
+                        <div>
+                            <h1>Florence Hughes</h1>
+                            <p>Ibu Rumah Tangga, 28</p>
+                        </div>
+                    </div>
+                    <hr class="hr">
+                    <h1 class="title">Use this space to provide users with more information about your offer. Consider it a folloe-up to your headline and explain the benefits of your service or product</h1>
+                    <div class="list">
+                        <h1 class="number">1</h1>
+                        <p>Your first feature, written in the form of a benefit statement.</p>
+                    </div>
+                    <div class="list">
+                        <h1 class="number">2</h1>
+                        <p>Your second feature, written in the form of a benefit statement.</p>
+                    </div>
+                    <div class="list">
+                        <h1 class="number">3</h1>
+                        <p>Your third feature, written in the form of a benefit statement.</p>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <h1>Contact Us</h1>
+                    <h2>Sales akan menghubungi anda 1x24 jam setelah data kami terima</h2>
+                    <form name="message-form" onsubmit="return ValidateForm()">
+                        <label >Your name:</label><br>
+                        <input class="input-full" type="text" name="name" placeholder="First and last name"><br>
+                        <label >Email address:</label><br>
+                        <input class="input-full" type="email" name="email" placeholder="example@email.com"><br>
+                        <label >What are you interested in?</label><br>
+                        <select class="input-full" name="travel" placeholder="Select option">
+                            <option value="">Select option</option>
+                            <option value="Bali">Bali</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Bandung">Bandung</option>
+                            <option value="Surabaya">Surabaya</option>
+                            <option value="Third Feature">Third Feature</option>
+                        </select><br>
+                        <button type="submit" value="submit" class="input-full bg-bottom">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-package" id="package">
+        <h1>Our Packages</h1>
+    </section>
+    <section class="Package">
+        <div class="container">
+            <div class="flex no-flex">
+                <div>
+                    <div class="flex margin">
+                        <img class="star" src="assets/star.png">
+                        <div>
+                            <h1>Bali</h1>
+                            <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex margin">
+                        <img class="star" src="assets/star.png">
+                        <div>
+                            <h1>Japan</h1>
+                            <p>Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex margin">
+                        <img class="star" src="assets/star.png">
+                        <div>
+                            <h1>Singapore</h1>
+                            <p>Travel dan wisata di Singapore. kunjungi cagar budaya dan kuliner yang menarik</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="flex no-flex">
+                <div>
+                    <div class="flex margin">
+                        <img class="star" src="assets/star.png">
+                        <div>
+                            <h1>Bandung</h1>
+                            <p>Travel dan wisata di Bandung. kunjungi cagar budaya dan kuliner yang menarik</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex margin">
+                        <img class="star" src="assets/star.png">
+                        <div>
+                            <h1>Surabaya</h1>
+                            <p>Travel dan wisata di Surabaya. kunjungi cagar budaya dan kuliner yang menarik</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex margin">
+                        <img class="star" src="assets/star.png">
+                        <div>
+                            <h1>Third Feature</h1>
+                            <p>Travel dan wisata di Third Feature. kunjungi cagar budaya dan kuliner yang menarik</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="call" id="call">
+        <div class="container">
+            <h1>Your Closing Argument Headline</h1>
+            <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis risus. Phasellus fringilla odio vel erat fringilla.</p>
+            <a href="#">CALL TO ACTION</a>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="container">
+            <img class="logo-footer" src="assets/logo.png">
+            <div class="footer-list">
+                <a href="">Terms of Service</a>
+                <a href="">Privacy Policy</a>
+            </div>
+            <div class="footer-list">
+                <p>&copy; 2023</p>
+                <a href="">REVOU</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
